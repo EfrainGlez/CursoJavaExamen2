@@ -29,8 +29,8 @@ public class Application implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        //clientPersistorService.readAndPersistClients();
-        //policyPersistorService.readAndPersistPolicies();
+        clientPersistorService.readAndPersistClients();
+        policyPersistorService.readAndPersistPolicies();
 
 
     }
