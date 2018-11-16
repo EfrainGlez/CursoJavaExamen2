@@ -1,5 +1,7 @@
 # Examen Curso de Java - Spring Boot
 
+### Funcionamiento: La aplicación accede a dos endpoint externos, lee la información de esos endpoints y la persiste en base de datos. Luego expone varios endpoints para acceder a la información dela tabla clientes.
+
 La aplicación necesita acceder a una base de datos llamada curso_java con 2 tablas: client y policy
 
 ## client
