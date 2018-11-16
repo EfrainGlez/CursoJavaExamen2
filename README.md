@@ -1,8 +1,8 @@
-#Examen Curso de Java - Spring Boot
+# Examen Curso de Java - Spring Boot
 
 La aplicación necesita acceder a una base de datos llamada curso_java con 2 tablas: client y policy
 
-##client
+## client
 ```
 CREATE TABLE `client` (
   `id` varchar(100) NOT NULL DEFAULT '',
@@ -13,7 +13,7 @@ CREATE TABLE `client` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
-##policy
+## policy
 ```
 CREATE TABLE `policy` (
   `id` varchar(100) NOT NULL DEFAULT '',
@@ -27,7 +27,7 @@ CREATE TABLE `policy` (
 ```
 
 
-###Endpoints visibles:
+### Endpoints visibles:
 La aplicación correrá en http://localhost:8091
 ```
 https://localhost:8091/clients
