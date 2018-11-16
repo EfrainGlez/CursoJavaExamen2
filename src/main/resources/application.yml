@@ -1,0 +1,14 @@
+
+server:
+  port: 8091
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3310/curso_java
+    username: root
+    password: 123
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
