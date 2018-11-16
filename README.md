@@ -29,11 +29,15 @@ CREATE TABLE `policy` (
 
 ### Endpoints visibles:
 La aplicación correrá en http://localhost:8091
-```
-https://localhost:8091/clients
+
+http://localhost:8091/clients
+
 http://localhost:8091/clients/id/{id}
+
 http://localhost:8091/clients/name/{name}
+
 http://localhost:8091/clients/email/{email}
+
 http://localhost:8091/clients/role/{role}
-```
+
 
